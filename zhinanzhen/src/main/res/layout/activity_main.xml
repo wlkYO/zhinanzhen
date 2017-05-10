@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+ android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/ccc"
+    >
+
+    <TextView
+        android:id="@+id/tv_accuracy"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrow"
+        android:src="@drawable/arrow"
+        />
+
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/face"
+       />
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_direction"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="50sp"
+    android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
